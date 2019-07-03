@@ -5,7 +5,7 @@
   <textarea bind:this={outputBox} placeholder="한글" rows="1"></textarea>
 </section>
 
-<p>Romaja to 한글 converter by <a href="https://anthony.som.codes">Anthony Som</a>.</p>
+<p class="footer">Romaja to 한글 converter by <a href="https://anthony.som.codes">Anthony Som</a>.</p>
 
 <script>
   export let inputBox;
