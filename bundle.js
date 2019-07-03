@@ -263,7 +263,7 @@ var app = (function () {
     			textarea1 = element("textarea");
     			t1 = space();
     			p = element("p");
-    			t2 = text("Romaja to Hangeul converter by ");
+    			t2 = text("Romaja to 한글 converter by ");
     			a = element("a");
     			a.textContent = "Anthony Som";
     			t4 = text(".");
@@ -276,7 +276,8 @@ var app = (function () {
     			add_location(textarea1, file, 4, 2, 130);
     			add_location(section1, file, 3, 0, 118);
     			attr(a, "href", "https://anthony.som.codes");
-    			add_location(a, file, 7, 34, 246);
+    			add_location(a, file, 7, 44, 256);
+    			attr(p, "class", "footer");
     			add_location(p, file, 7, 0, 212);
     			dispose = listen(textarea0, "input", ctx.hangeulize);
     		},
