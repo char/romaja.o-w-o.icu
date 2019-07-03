@@ -1,4 +1,4 @@
-# rom2han.o-w-o.icu
+# romaja.o-w-o.icu
 
 A minimalistic romaja to 한글 conversion website.
 
